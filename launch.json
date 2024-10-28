@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Archivo actual",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pacman.py",
+            "console": "integratedTerminal",
+            "arg": [
+                "-l", "tinyMaze",
+                "-p", "SearchAgent",
+                "-a", "fn=bfs"
+            ]
+        }
+    ]
+}
